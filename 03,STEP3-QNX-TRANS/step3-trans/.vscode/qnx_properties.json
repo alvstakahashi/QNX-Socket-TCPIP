@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "template": {
+    "projectId": "step2-socket",
+    "artifactName": "step2-socket",
+    "buildType": "SimpleMake",
+    "language": "c",
+    "archlist": "x86_64,aarch64le",
+    "artifactType": "Executable"
+  }
+}

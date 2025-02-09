@@ -1,0 +1,29 @@
+{
+  "version": "2.0.0",
+  "configurations": [
+    {
+      "type": "qnx-gdb",
+      "request": "launch",
+      "name": "QNX: step4-brushup",
+      "gdb": "gdb",
+      "program": "${command:qnx.autodetectBinary}",
+      "remotePath": "step4-brushup",
+      "qnxtarget": "default",
+      "upload": true,
+      "stopAtEntry": true,
+      "preLaunchTask": "${defaultBuildTask}"
+    },
+    {
+      "type": "qnx-gdb",
+      "request": "launch",
+      "name": "build/aarch64le-debug/step4-brushup",
+      "gdb": "gdb",
+      "program": "build/aarch64le-debug/step4-brushup",
+      "remotePath": "step4-brushup",
+      "qnxtarget": "default",
+      "upload": true,
+      "stopAtEntry": true,
+      "preLaunchTask": "${defaultBuildTask}"
+    }
+  ]
+}

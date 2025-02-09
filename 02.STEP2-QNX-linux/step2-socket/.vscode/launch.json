@@ -1,0 +1,17 @@
+{
+  "version": "2.0.0",
+  "configurations": [
+    {
+      "type": "qnx-gdb",
+      "request": "launch",
+      "name": "QNX: step2-socket",
+      "gdb": "gdb",
+      "program": "${command:qnx.autodetectBinary}",
+      "remotePath": "step2-socket",
+      "qnxtarget": "default",
+      "upload": true,
+      "stopAtEntry": true,
+      "preLaunchTask": "${defaultBuildTask}"
+    }
+  ]
+}

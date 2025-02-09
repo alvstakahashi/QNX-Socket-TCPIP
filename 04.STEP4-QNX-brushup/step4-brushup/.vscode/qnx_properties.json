@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "template": {
+    "projectId": "step4-brushup",
+    "artifactName": "step4-brushup",
+    "buildType": "SimpleMake",
+    "language": "c",
+    "archlist": "x86_64,aarch64le",
+    "artifactType": "Executable"
+  }
+}
